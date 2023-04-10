@@ -11,8 +11,10 @@
     <h2>For all your incorporated company needs</h2>
 
     <!-- First, create a form tag where our inputs will be nested -->
-
-
+    <form>
+      <label for="fullname"></label>
+      <input type="text" placeholder="Enter Name" name="fullname" id="fullname" required >
+  
       <!-- Add a label for 'fullname'-->
 
       <!-- Add a text input with the id and name attributes set to 'fullname' -->
@@ -24,25 +26,28 @@
       <!-- Add a email input with the id and name attributes set to 'email' -->
       <!-- Include the place holder text "Enter Email" and make this input required -->
 
-
+      <label for="email"></label>
+      <input type="text" placeholder="Enter Email" name="email" id="email" required>
       <!-- Add a label for 'phone'-->
 
       <!-- Add a telephone input with the id and name attributes set to 'phone' -->
       <!-- Include the place holder text "Enter Telephone (optional)" -->
-
+      <label for="phone"></label>
+      <input type="tel" placeholder="Enter Telephone (optional)" name="phone" id="phone" required>
 
       <!-- Add a label for 'message'-->
 
       <!-- Add a textarea tag with the id and name attributes set to 'message' -->
       <!-- Include the place holder text "Enter Message" -->
-
+      <label for="message"></label>
+      <textarea placeholder="Enter Message" name="message" id="message" ></textarea>
 
       <!-- Add a checkbox input with the id set to 'checkbox' -->
-
+      <input type="checkbox" id="checkbox" required>
 
 
       <!-- Add an input with the type set to 'submit' -->
-
-    
+      <input type="submit" value="Submit" required>
+    </form>
   </body>
 </html>
